@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #d4bdde;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    margin: 50px;
+}
+
+.chart {
+    padding: 2rem;
+    border: 1px solid #d4bdde;
+    border-radius: 1rem;
+    background: #faeeff;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #faeeff;
+}
